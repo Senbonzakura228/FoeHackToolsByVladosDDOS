@@ -1,0 +1,5149 @@
+﻿[
+  {
+    "responseData": true,
+    "requestClass": "MessageService",
+    "requestMethod": "newMessage",
+    "requestId": 532,
+    "__class__": "ServerResponse"
+  },
+  {
+    "responseData": {
+      "time": 1688415614,
+      "__class__": "Time"
+    },
+    "requestClass": "TimeService",
+    "requestMethod": "updateTime",
+    "requestId": 532,
+    "__class__": "ServerResponse"
+  },
+  {
+    "responseData": {
+      "units": [
+        {
+          "unitId": 13,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "chivalry",
+              "name": "\u041e\u0442\u0432\u0430\u0433\u0430",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u044e\u043d\u0438\u0442 \u0441 \u044d\u0442\u0438\u043c \u0443\u043c\u0435\u043d\u0438\u0435\u043c.",
+              "icon": "chivalry",
+              "value": 10,
+              "__class__": "BattleChivalryAbility"
+            },
+            {
+              "type": "call_of_duty",
+              "name": "\u0417\u043e\u0432 \u0414\u043e\u043b\u0433\u0430",
+              "description": "\u0414\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u0432\u0441\u0435\u043c \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u044e\u043d\u0438\u0442\u0430\u043c, \u043a\u043e\u0433\u0434\u0430 \u044d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043f\u043e\u0433\u0438\u0431\u0430\u0435\u0442. \u041f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u0440\u0430\u0437.",
+              "icon": "call_of_duty",
+              "value": 8,
+              "__class__": "BattleCallOfDutyAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "TomorrowEra_champion",
+          "next_healing_step_size": 5788,
+          "count": 1,
+          "unitIds": [
+            13
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 192,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 26,
+              "__class__": "BattleDugInAbility"
+            },
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rf_cannon",
+          "next_healing_step_size": 964,
+          "count": 419,
+          "unitIds": [
+            192,
+            2240,
+            4288,
+            6336,
+            8384,
+            10432,
+            12480,
+            14528,
+            16576,
+            18624,
+            20672,
+            22720,
+            24768,
+            26816,
+            28864,
+            30912,
+            32960,
+            35008,
+            37056,
+            39104
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 4,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "catapult",
+          "next_healing_step_size": 964,
+          "count": 3,
+          "unitIds": [
+            4,
+            2052,
+            4100
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 51,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "trebuchet",
+          "next_healing_step_size": 964,
+          "count": 1,
+          "unitIds": [
+            51
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 15,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "close_quarters",
+              "name": "\u0420\u0443\u043a\u043e\u043f\u0430\u0448\u043d\u0430\u044f",
+              "description": "\u041f\u043e\u0432\u044b\u0448\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0430\u0442\u0430\u043a\u0438 \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u0435\u043c\u044b\u0439 \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432 \u0441\u043e\u0441\u0435\u0434\u043d\u0435\u0439 \u043a\u043b\u0435\u0442\u043a\u0435",
+              "icon": "close_quarters",
+              "value": 50,
+              "__class__": "BattleCloseQuartersAbility"
+            },
+            {
+              "type": "stealth",
+              "name": "\u0423\u043a\u0440\u044b\u0442\u0438\u0435",
+              "description": "\u042d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043c\u043e\u0436\u0435\u0442 \u0441\u043f\u0440\u044f\u0442\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0434\u0430\u043b\u044c\u043d\u0438\u0445 \u0430\u0442\u0430\u043a \u0432 \u044d\u0442\u043e\u0439 \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u0438.",
+              "icon": "stealth",
+              "terrains": [
+                "forest"
+              ],
+              "__class__": "BattleStealthAbility"
+            },
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "commando",
+          "next_healing_step_size": 964,
+          "count": 4,
+          "unitIds": [
+            15,
+            2063,
+            4111,
+            6159
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 85,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "force_field",
+              "name": "\u0421\u0438\u043b\u043e\u0432\u043e\u0435 \u043f\u043e\u043b\u0435",
+              "description": "\u041f\u043e\u0433\u043b\u043e\u0449\u0430\u0435\u0442 \u0443\u0440\u043e\u043d \u043d\u0430 %d, \u043c\u0438\u043d\u0438\u043c\u0443\u043c \u043d\u0430 1 \u043e\u0447\u043a\u043e \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0439.",
+              "icon": "force_field",
+              "value": 2,
+              "__class__": "BattleForceFieldAbility"
+            },
+            {
+              "type": "stealth",
+              "name": "\u0423\u043a\u0440\u044b\u0442\u0438\u0435",
+              "description": "\u042d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043c\u043e\u0436\u0435\u0442 \u0441\u043f\u0440\u044f\u0442\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0434\u0430\u043b\u044c\u043d\u0438\u0445 \u0430\u0442\u0430\u043a \u0432 \u044d\u0442\u043e\u0439 \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u0438.",
+              "icon": "stealth",
+              "terrains": [
+                "plain"
+              ],
+              "__class__": "BattleStealthAbility"
+            },
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "hover_tank",
+          "next_healing_step_size": 964,
+          "count": 4,
+          "unitIds": [
+            85,
+            2133,
+            4181,
+            6229
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 8,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "grenadier",
+          "next_healing_step_size": 964,
+          "count": 96,
+          "unitIds": [
+            8,
+            2056,
+            4104,
+            6152,
+            8200,
+            10248,
+            12296,
+            14344,
+            16392,
+            18440,
+            20488,
+            22536,
+            24584,
+            26632,
+            28680,
+            30728,
+            32776,
+            34824,
+            36872,
+            38920
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 18,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "archer",
+          "next_healing_step_size": 482,
+          "count": 5,
+          "unitIds": [
+            18,
+            2066,
+            4114,
+            6162,
+            8210
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 25,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 18,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "cannoniers",
+          "next_healing_step_size": 964,
+          "count": 27,
+          "unitIds": [
+            25,
+            2073,
+            4121,
+            6169,
+            8217,
+            10265,
+            12313,
+            14361,
+            16409,
+            18457,
+            20505,
+            22553,
+            24601,
+            26649,
+            28697,
+            30745,
+            32793,
+            34841,
+            36889,
+            38937
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 47,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "stealth",
+              "name": "\u0423\u043a\u0440\u044b\u0442\u0438\u0435",
+              "description": "\u042d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043c\u043e\u0436\u0435\u0442 \u0441\u043f\u0440\u044f\u0442\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0434\u0430\u043b\u044c\u043d\u0438\u0445 \u0430\u0442\u0430\u043a \u0432 \u044d\u0442\u043e\u0439 \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u0438.",
+              "icon": "stealth",
+              "terrains": [
+                "plain"
+              ],
+              "__class__": "BattleStealthAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "stealth_tank",
+          "next_healing_step_size": 964,
+          "count": 2,
+          "unitIds": [
+            47,
+            2095
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 91,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "morale",
+              "name": "\u0411\u043e\u0435\u0432\u043e\u0439 \u0434\u0443\u0445",
+              "description": "\u0412\u0441\u0435 \u0441\u043e\u044e\u0437\u043d\u044b\u0435 \u0432\u043e\u0439\u0441\u043a\u0430 \u043d\u0430\u0447\u0438\u043d\u0430\u044e\u0442 \u0431\u043e\u0439 \u0441 1 \u0435\u0434\u0438\u043d\u0438\u0446\u0435\u0439 \u0431\u0440\u043e\u043d\u0438. \u041d\u0435 \u0441\u0443\u043c\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f.",
+              "icon": "morale",
+              "value": 1,
+              "__class__": "BattleMoraleAbility"
+            },
+            {
+              "type": "rally",
+              "name": "\u0412\u043e\u043e\u0434\u0443\u0448\u0435\u0432\u043b\u0435\u043d\u0438\u0435",
+              "description": "\u0412\u0441\u0435 \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u044e\u043d\u0438\u0442\u044b \u043d\u0430\u0447\u0438\u043d\u0430\u044e\u0442 \u0431\u0438\u0442\u0432\u0443 \u0441 \u0431\u043e\u043d\u0443\u0441\u043e\u043c \u0430\u0442\u0430\u043a\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044b +%s \u041d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442\u0441\u044f.",
+              "icon": "rally",
+              "value": 6,
+              "__class__": "BattleRallyAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "military_drummer",
+          "next_healing_step_size": 5788,
+          "count": 8,
+          "unitIds": [
+            91,
+            2139,
+            4187,
+            6235,
+            8283,
+            10331,
+            12379,
+            14427
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 11,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "mounted_bowman",
+          "next_healing_step_size": 964,
+          "count": 18,
+          "unitIds": [
+            11,
+            2059,
+            4107,
+            6155,
+            8203,
+            10251,
+            12299,
+            14347,
+            16395,
+            18443,
+            20491,
+            22539,
+            24587,
+            26635,
+            28683,
+            30731,
+            32779,
+            34827
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 41,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "recharge",
+              "name": "\u041f\u0435\u0440\u0435\u0437\u0430\u0440\u044f\u0434\u043a\u0430",
+              "description": "\u0421\u0442\u0440\u0435\u043b\u044f\u0435\u0442 \u0442\u043e\u043b\u044c\u043a\u043e \u0447\u0435\u0440\u0435\u0437 \u0445\u043e\u0434.",
+              "icon": "recharge",
+              "value": 1,
+              "__class__": "BattleRechargeAbility"
+            },
+            {
+              "type": "power_shot",
+              "name": "\u041c\u043e\u0449\u043d\u044b\u0439 \u0443\u0434\u0430\u0440",
+              "description": "\u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u0431\u043e\u043b\u044c\u0448\u0438\u043d\u0441\u0442\u0432\u043e \u0437\u0430\u0449\u0438\u0442\u043d\u044b\u0445 \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0438 \u043f\u0440\u0435\u043f\u044f\u0442\u0441\u0442\u0432\u0438\u0439.",
+              "icon": "power_shot",
+              "__class__": "BattlePowerShotAbility"
+            },
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rail_gun_unit",
+          "next_healing_step_size": 964,
+          "count": 2,
+          "unitIds": [
+            41,
+            2089
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 6,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "chivalry",
+              "name": "\u041e\u0442\u0432\u0430\u0433\u0430",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u044e\u043d\u0438\u0442 \u0441 \u044d\u0442\u0438\u043c \u0443\u043c\u0435\u043d\u0438\u0435\u043c.",
+              "icon": "chivalry",
+              "value": 6,
+              "__class__": "BattleChivalryAbility"
+            },
+            {
+              "type": "call_of_duty",
+              "name": "\u0417\u043e\u0432 \u0414\u043e\u043b\u0433\u0430",
+              "description": "\u0414\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u0432\u0441\u0435\u043c \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u044e\u043d\u0438\u0442\u0430\u043c, \u043a\u043e\u0433\u0434\u0430 \u044d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043f\u043e\u0433\u0438\u0431\u0430\u0435\u0442. \u041f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u0440\u0430\u0437.",
+              "icon": "call_of_duty",
+              "value": 4,
+              "__class__": "BattleCallOfDutyAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "ProgressiveEra_champion",
+          "next_healing_step_size": 5788,
+          "count": 11,
+          "unitIds": [
+            6,
+            2054,
+            4102,
+            6150,
+            8198,
+            10246,
+            12294,
+            14342,
+            16390,
+            18438,
+            20486
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 29,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "rogue",
+              "name": "\u0422\u0430\u0439\u043d\u0430\u044f \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+              "description": "\u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 \u0443\u0440\u043e\u043d \u0438 \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0432 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u044e\u043d\u0438\u0442\u0430 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438. \u041f\u043e\u0433\u0438\u0431\u0430\u0435\u0442, \u0435\u0441\u043b\u0438 \u0443 \u043d\u0435\u0433\u043e \u0431\u044b\u043b\u043e \u0434\u043e 10 \u043a\u043b\u0435\u0442\u043e\u043a \u0438 \u0435\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u043d\u0435 \u043e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u044e\u043d\u0438\u0442\u043e\u0432 \u0431\u0435\u0437 \u0442\u0430\u0439\u043d\u043e\u0439 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438. ",
+              "icon": "rogue",
+              "used_at_step": -1,
+              "value": "own",
+              "__class__": "BattleRogueAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rogue",
+          "next_healing_step_size": 5788,
+          "count": 1300,
+          "unitIds": [
+            29,
+            2077,
+            4125,
+            6173,
+            8221,
+            10269,
+            12317,
+            14365,
+            16413,
+            18461,
+            20509,
+            22557,
+            24605,
+            26653,
+            28701,
+            30749,
+            32797,
+            34845,
+            36893,
+            38941
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 99,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "close_quarters",
+              "name": "\u0420\u0443\u043a\u043e\u043f\u0430\u0448\u043d\u0430\u044f",
+              "description": "\u041f\u043e\u0432\u044b\u0448\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0430\u0442\u0430\u043a\u0438 \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u0435\u043c\u044b\u0439 \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432 \u0441\u043e\u0441\u0435\u0434\u043d\u0435\u0439 \u043a\u043b\u0435\u0442\u043a\u0435",
+              "icon": "close_quarters",
+              "value": 20,
+              "__class__": "BattleCloseQuartersAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "conscript",
+          "next_healing_step_size": 964,
+          "count": 234,
+          "unitIds": [
+            99,
+            2147,
+            4195,
+            6243,
+            8291,
+            10339,
+            12387,
+            14435,
+            16483,
+            18531,
+            20579,
+            22627,
+            24675,
+            26723,
+            28771,
+            30819,
+            32867,
+            34915,
+            36963,
+            39011
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 165,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 14,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "bombarde",
+          "next_healing_step_size": 964,
+          "count": 49,
+          "unitIds": [
+            165,
+            2213,
+            4261,
+            6309,
+            8357,
+            10405,
+            12453,
+            14501,
+            16549,
+            18597,
+            20645,
+            22693,
+            24741,
+            26789,
+            28837,
+            30885,
+            32933,
+            34981,
+            37029,
+            39077
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 92,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "tank",
+          "next_healing_step_size": 964,
+          "count": 466,
+          "unitIds": [
+            92,
+            2140,
+            4188,
+            6236,
+            8284,
+            10332,
+            12380,
+            14428,
+            16476,
+            18524,
+            20572,
+            22620,
+            24668,
+            26716,
+            28764,
+            30812,
+            32860,
+            34908,
+            36956,
+            39004
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 44,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "rapid_deployment",
+              "name": "\u0412\u043e\u0439\u0441\u043a\u0430 \u0431\u044b\u0441\u0442\u0440\u043e\u0433\u043e \u0440\u0435\u0430\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+              "description": "\u041d\u0430\u0447\u0438\u043d\u0430\u0435\u0442 \u0431\u043e\u0439 \u043d\u0430 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u043a\u043b\u0435\u0442\u043a\u0435 \u043d\u0430 \u043f\u043e\u043b\u0435 \u0431\u043e\u044f. \u0412\u0441\u0435\u0433\u0434\u0430 \u0445\u043e\u0434\u0438\u0442 \u043f\u0435\u0440\u0432\u044b\u043c.",
+              "icon": "rapid_deployment",
+              "value": "own",
+              "__class__": "BattleRapidDeploymentAbility"
+            },
+            {
+              "type": "stealth",
+              "name": "\u0423\u043a\u0440\u044b\u0442\u0438\u0435",
+              "description": "\u042d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043c\u043e\u0436\u0435\u0442 \u0441\u043f\u0440\u044f\u0442\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0434\u0430\u043b\u044c\u043d\u0438\u0445 \u0430\u0442\u0430\u043a \u0432 \u044d\u0442\u043e\u0439 \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u0438.",
+              "icon": "stealth",
+              "terrains": [
+                "forest"
+              ],
+              "__class__": "BattleStealthAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "paratrooper",
+          "next_healing_step_size": 964,
+          "count": 2,
+          "unitIds": [
+            44,
+            2092
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 5,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "armored_car",
+          "next_healing_step_size": 964,
+          "count": 223,
+          "unitIds": [
+            5,
+            2053,
+            4101,
+            6149,
+            8197,
+            10245,
+            12293,
+            14341,
+            16389,
+            18437,
+            20485,
+            22533,
+            24581,
+            26629,
+            28677,
+            30725,
+            32773,
+            34821,
+            36869,
+            38917
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 82,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 30,
+              "__class__": "BattleDugInAbility"
+            },
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "bazooka",
+          "next_healing_step_size": 964,
+          "count": 3,
+          "unitIds": [
+            82,
+            2130,
+            4178
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 128,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "stealth",
+              "name": "\u0423\u043a\u0440\u044b\u0442\u0438\u0435",
+              "description": "\u042d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043c\u043e\u0436\u0435\u0442 \u0441\u043f\u0440\u044f\u0442\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0434\u0430\u043b\u044c\u043d\u0438\u0445 \u0430\u0442\u0430\u043a \u0432 \u044d\u0442\u043e\u0439 \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u0438.",
+              "icon": "stealth",
+              "terrains": [
+                "forest"
+              ],
+              "__class__": "BattleStealthAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "jaeger",
+          "next_healing_step_size": 964,
+          "count": 107,
+          "unitIds": [
+            128,
+            2176,
+            4224,
+            6272,
+            8320,
+            10368,
+            12416,
+            14464,
+            16512,
+            18560,
+            20608,
+            22656,
+            24704,
+            26752,
+            28800,
+            30848,
+            32896,
+            34944,
+            36992,
+            39040
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 57,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "dismounted_knight",
+          "next_healing_step_size": 964,
+          "count": 2,
+          "unitIds": [
+            57,
+            2105
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 17,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "crossbowman",
+          "next_healing_step_size": 964,
+          "count": 1,
+          "unitIds": [
+            17
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 7,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "stealth",
+              "name": "\u0423\u043a\u0440\u044b\u0442\u0438\u0435",
+              "description": "\u042d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043c\u043e\u0436\u0435\u0442 \u0441\u043f\u0440\u044f\u0442\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0434\u0430\u043b\u044c\u043d\u0438\u0445 \u0430\u0442\u0430\u043a \u0432 \u044d\u0442\u043e\u0439 \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u0438.",
+              "icon": "stealth",
+              "terrains": [
+                "forest"
+              ],
+              "__class__": "BattleStealthAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "ranger",
+          "next_healing_step_size": 964,
+          "count": 94,
+          "unitIds": [
+            7,
+            2055,
+            4103,
+            6151,
+            8199,
+            10247,
+            12295,
+            14343,
+            16391,
+            18439,
+            20487,
+            22535,
+            24583,
+            26631,
+            28679,
+            30727,
+            32775,
+            34823,
+            36871,
+            38919
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 148,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "lancer",
+          "next_healing_step_size": 964,
+          "count": 120,
+          "unitIds": [
+            148,
+            2196,
+            4244,
+            6292,
+            8340,
+            10388,
+            12436,
+            14484,
+            16532,
+            18580,
+            20628,
+            22676,
+            24724,
+            26772,
+            28820,
+            30868,
+            32916,
+            34964,
+            37012,
+            39060
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 76,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 40,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "sniper",
+          "next_healing_step_size": 964,
+          "count": 260,
+          "unitIds": [
+            76,
+            2124,
+            4172,
+            6220,
+            8268,
+            10316,
+            12364,
+            14412,
+            16460,
+            18508,
+            20556,
+            22604,
+            24652,
+            26700,
+            28748,
+            30796,
+            32844,
+            34892,
+            36940,
+            38988
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 69,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "pikeman",
+          "next_healing_step_size": 964,
+          "count": 70,
+          "unitIds": [
+            69,
+            2117,
+            4165,
+            6213,
+            8261,
+            10309,
+            12357,
+            14405,
+            16453,
+            18501,
+            20549,
+            22597,
+            24645,
+            26693,
+            28741,
+            30789,
+            32837,
+            34885,
+            36933,
+            38981
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 35,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "battle_tank",
+          "next_healing_step_size": 964,
+          "count": 2,
+          "unitIds": [
+            35,
+            2083
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 1,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "legionnaire",
+          "next_healing_step_size": 482,
+          "count": 15,
+          "unitIds": [
+            1,
+            2049,
+            4097,
+            6145,
+            8193,
+            10241,
+            12289,
+            14337,
+            16385,
+            18433,
+            20481,
+            22529,
+            24577,
+            26625,
+            28673
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 64,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "chivalry",
+              "name": "\u041e\u0442\u0432\u0430\u0433\u0430",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u044e\u043d\u0438\u0442 \u0441 \u044d\u0442\u0438\u043c \u0443\u043c\u0435\u043d\u0438\u0435\u043c.",
+              "icon": "chivalry",
+              "value": 5,
+              "__class__": "BattleChivalryAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "imperial_knight",
+          "next_healing_step_size": 964,
+          "count": 44,
+          "unitIds": [
+            64,
+            2112,
+            4160,
+            6208,
+            8256,
+            10304,
+            12352,
+            14400,
+            16448,
+            18496,
+            20544,
+            22592,
+            24640,
+            26688,
+            28736,
+            30784,
+            32832,
+            34880,
+            36928,
+            38976
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 77,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "mech_infantry",
+          "next_healing_step_size": 964,
+          "count": 2,
+          "unitIds": [
+            77,
+            2125
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 30,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "heat",
+              "name": "\u0416\u0430\u0440",
+              "description": "\u0423\u043c\u0435\u043d\u044c\u0448\u0430\u0435\u0442 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u0430\u0442\u0430\u043a\u0438 \u0446\u0435\u043b\u0438",
+              "icon": "heat",
+              "value": 20,
+              "__class__": "BattleHeatAbility"
+            },
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "sat_uplink_unit",
+          "next_healing_step_size": 964,
+          "count": 2,
+          "unitIds": [
+            30,
+            2078
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 27,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 50,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "anti_material_sniper",
+          "next_healing_step_size": 964,
+          "count": 2,
+          "unitIds": [
+            27,
+            2075
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 3,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "balista",
+          "next_healing_step_size": 482,
+          "count": 3,
+          "unitIds": [
+            3,
+            2051,
+            4099
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 34,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "rogue",
+              "name": "\u0422\u0430\u0439\u043d\u0430\u044f \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+              "description": "\u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 \u0443\u0440\u043e\u043d \u0438 \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0432 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u044e\u043d\u0438\u0442\u0430 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438. \u041f\u043e\u0433\u0438\u0431\u0430\u0435\u0442, \u0435\u0441\u043b\u0438 \u0443 \u043d\u0435\u0433\u043e \u0431\u044b\u043b\u043e \u0434\u043e 10 \u043a\u043b\u0435\u0442\u043e\u043a \u0438 \u0435\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u043d\u0435 \u043e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u044e\u043d\u0438\u0442\u043e\u0432 \u0431\u0435\u0437 \u0442\u0430\u0439\u043d\u043e\u0439 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438. ",
+              "icon": "rogue",
+              "used_at_step": -1,
+              "value": "own",
+              "__class__": "BattleRogueAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "entity_id": 593,
+          "unitTypeId": "rogue",
+          "next_healing_step_size": 5788,
+          "count": 1,
+          "unitIds": [
+            34
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 89,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "biedenhaender_mercenary",
+          "next_healing_step_size": 964,
+          "count": 66,
+          "unitIds": [
+            89,
+            2137,
+            4185,
+            6233,
+            8281,
+            10329,
+            12377,
+            14425,
+            16473,
+            18521,
+            20569,
+            22617,
+            24665,
+            26713,
+            28761,
+            30809,
+            32857,
+            34905,
+            36953,
+            39001
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 33,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 40,
+              "__class__": "BattleDugInAbility"
+            },
+            {
+              "type": "contact",
+              "name": "\u041a\u043e\u043d\u0442\u0430\u043a\u0442!",
+              "description": "\u0412\u0441\u0435\u0433\u0434\u0430 \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u0430\u0442\u0430\u043a\u043e\u0439 \u043d\u0430 \u0432\u0441\u0442\u0440\u0435\u0447\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443.",
+              "icon": "contact",
+              "__class__": "BattleContactAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "surrogate_soldier",
+          "next_healing_step_size": 964,
+          "count": 11,
+          "unitIds": [
+            33,
+            2081,
+            4129,
+            6177,
+            8225,
+            10273,
+            12321,
+            14369,
+            16417,
+            18465,
+            20513
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 28,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "dragoon",
+          "next_healing_step_size": 964,
+          "count": 91,
+          "unitIds": [
+            28,
+            2076,
+            4124,
+            6172,
+            8220,
+            10268,
+            12316,
+            14364,
+            16412,
+            18460,
+            20508,
+            22556,
+            24604,
+            26652,
+            28700,
+            30748,
+            32796,
+            34844,
+            36892,
+            38940
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 87,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "reactive_armor",
+              "name": "\u0425\u0438\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0411\u0440\u043e\u043d\u044f",
+              "description": "\u041d\u0435 \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 %s \u0443\u0440\u043e\u043d\u0430 \u0437\u0430 \u0430\u0442\u0430\u043a\u0443.",
+              "icon": "reactive_armor",
+              "value": 3,
+              "__class__": "BattleReactiveArmorAbility"
+            },
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "battle_fortress",
+          "next_healing_step_size": 964,
+          "count": 10,
+          "unitIds": [
+            87,
+            2135,
+            4183,
+            6231,
+            8279,
+            10327,
+            12375,
+            14423,
+            16471,
+            18519
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 19,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "javeliner",
+          "next_healing_step_size": 20,
+          "count": 4,
+          "unitIds": [
+            19,
+            2067,
+            4115,
+            6163
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 38,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "slinger",
+          "next_healing_step_size": 80,
+          "count": 5,
+          "unitIds": [
+            38,
+            2086,
+            4134,
+            6182,
+            8230
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 78,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "chivalry",
+              "name": "\u041e\u0442\u0432\u0430\u0433\u0430",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u044e\u043d\u0438\u0442 \u0441 \u044d\u0442\u0438\u043c \u0443\u043c\u0435\u043d\u0438\u0435\u043c.",
+              "icon": "chivalry",
+              "value": 5,
+              "__class__": "BattleChivalryAbility"
+            },
+            {
+              "type": "call_of_duty",
+              "name": "\u0417\u043e\u0432 \u0414\u043e\u043b\u0433\u0430",
+              "description": "\u0414\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u0432\u0441\u0435\u043c \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u044e\u043d\u0438\u0442\u0430\u043c, \u043a\u043e\u0433\u0434\u0430 \u044d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043f\u043e\u0433\u0438\u0431\u0430\u0435\u0442. \u041f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u0440\u0430\u0437.",
+              "icon": "call_of_duty",
+              "value": 2,
+              "__class__": "BattleCallOfDutyAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "LateMiddleAge_champion",
+          "next_healing_step_size": 5788,
+          "count": 6,
+          "unitIds": [
+            78,
+            2126,
+            4174,
+            6222,
+            8270,
+            10318
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 48,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rifleman",
+          "next_healing_step_size": 964,
+          "count": 97,
+          "unitIds": [
+            48,
+            2096,
+            4144,
+            6192,
+            8240,
+            10288,
+            12336,
+            14384,
+            16432,
+            18480,
+            20528,
+            22576,
+            24624,
+            26672,
+            28720,
+            30768,
+            32816,
+            34864,
+            36912,
+            38960
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 10,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "chivalry",
+              "name": "\u041e\u0442\u0432\u0430\u0433\u0430",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u044e\u043d\u0438\u0442 \u0441 \u044d\u0442\u0438\u043c \u0443\u043c\u0435\u043d\u0438\u0435\u043c.",
+              "icon": "chivalry",
+              "value": 5,
+              "__class__": "BattleChivalryAbility"
+            },
+            {
+              "type": "call_of_duty",
+              "name": "\u0417\u043e\u0432 \u0414\u043e\u043b\u0433\u0430",
+              "description": "\u0414\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u0432\u0441\u0435\u043c \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u044e\u043d\u0438\u0442\u0430\u043c, \u043a\u043e\u0433\u0434\u0430 \u044d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043f\u043e\u0433\u0438\u0431\u0430\u0435\u0442. \u041f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u0440\u0430\u0437.",
+              "icon": "call_of_duty",
+              "value": 3,
+              "__class__": "BattleCallOfDutyAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "ColonialAge_champion",
+          "next_healing_step_size": 5788,
+          "count": 21,
+          "unitIds": [
+            10,
+            2058,
+            4106,
+            6154,
+            8202,
+            10250,
+            12298,
+            14346,
+            16394,
+            18442,
+            20490,
+            22538,
+            24586,
+            26634,
+            28682,
+            30730,
+            32778,
+            34826,
+            36874,
+            38922
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 52,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "blast",
+              "name": "\u0417\u0430\u043b\u043f",
+              "description": "\u041f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0430\u0442\u0430\u043a\u0438 \u0437\u0430 \u043a\u0430\u0436\u0434\u0443\u044e \u043a\u043b\u0435\u0442\u043a\u0443, \u0431\u043b\u0438\u0436\u043d\u044e\u044e \u043a \u0446\u0435\u043b\u0438. \u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u0443\u043a\u0440\u044b\u0442\u0438\u0435.",
+              "icon": "blast",
+              "value": 6,
+              "__class__": "BattleBlastAbility"
+            },
+            {
+              "type": "close_quarters",
+              "name": "\u0420\u0443\u043a\u043e\u043f\u0430\u0448\u043d\u0430\u044f",
+              "description": "\u041f\u043e\u0432\u044b\u0448\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0430\u0442\u0430\u043a\u0438 \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u0435\u043c\u044b\u0439 \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432 \u0441\u043e\u0441\u0435\u0434\u043d\u0435\u0439 \u043a\u043b\u0435\u0442\u043a\u0435",
+              "icon": "close_quarters",
+              "value": 80,
+              "__class__": "BattleCloseQuartersAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "exo_soldier",
+          "next_healing_step_size": 964,
+          "count": 6,
+          "unitIds": [
+            52,
+            2100,
+            4148,
+            6196,
+            8244,
+            10292
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 26,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "rally",
+              "name": "\u0412\u043e\u043e\u0434\u0443\u0448\u0435\u0432\u043b\u0435\u043d\u0438\u0435",
+              "description": "\u0412\u0441\u0435 \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u044e\u043d\u0438\u0442\u044b \u043d\u0430\u0447\u0438\u043d\u0430\u044e\u0442 \u0431\u0438\u0442\u0432\u0443 \u0441 \u0431\u043e\u043d\u0443\u0441\u043e\u043c \u0430\u0442\u0430\u043a\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044b +%s \u041d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442\u0441\u044f.",
+              "icon": "rally",
+              "value": 12,
+              "__class__": "BattleRallyAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "color_guard",
+          "next_healing_step_size": 5788,
+          "count": 9,
+          "unitIds": [
+            26,
+            2074,
+            4122,
+            6170,
+            8218,
+            10266,
+            12314,
+            14362,
+            16410
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 45,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "flying",
+              "name": "\u041f\u043e\u043b\u0451\u0442",
+              "description": "\u041d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0430\u0442\u0430\u043a\u043e\u0432\u0430\u043d \u0430\u0440\u0442\u0438\u043b\u043b\u0435\u0440\u0438\u0435\u0439 \u0438\u043b\u0438 \u044e\u043d\u0438\u0442\u0430\u043c\u0438 \u0431\u043b\u0438\u0436\u043d\u0435\u0433\u043e \u0431\u043e\u044f. \u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u044c \u043f\u0440\u0438 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0438.",
+              "icon": "flying",
+              "__class__": "BattleFlyingAbility"
+            },
+            {
+              "type": "rapid_deployment",
+              "name": "\u0412\u043e\u0439\u0441\u043a\u0430 \u0431\u044b\u0441\u0442\u0440\u043e\u0433\u043e \u0440\u0435\u0430\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+              "description": "\u041d\u0430\u0447\u0438\u043d\u0430\u0435\u0442 \u0431\u043e\u0439 \u043d\u0430 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u043a\u043b\u0435\u0442\u043a\u0435 \u043d\u0430 \u043f\u043e\u043b\u0435 \u0431\u043e\u044f. \u0412\u0441\u0435\u0433\u0434\u0430 \u0445\u043e\u0434\u0438\u0442 \u043f\u0435\u0440\u0432\u044b\u043c.",
+              "icon": "rapid_deployment",
+              "value": "own",
+              "__class__": "BattleRapidDeploymentAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "drone_swarm",
+          "next_healing_step_size": 964,
+          "count": 2,
+          "unitIds": [
+            45,
+            2093
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 49,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "flying",
+              "name": "\u041f\u043e\u043b\u0451\u0442",
+              "description": "\u041d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0430\u0442\u0430\u043a\u043e\u0432\u0430\u043d \u0430\u0440\u0442\u0438\u043b\u043b\u0435\u0440\u0438\u0435\u0439 \u0438\u043b\u0438 \u044e\u043d\u0438\u0442\u0430\u043c\u0438 \u0431\u043b\u0438\u0436\u043d\u0435\u0433\u043e \u0431\u043e\u044f. \u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u044c \u043f\u0440\u0438 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0438.",
+              "icon": "flying",
+              "__class__": "BattleFlyingAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "combat_drone",
+          "next_healing_step_size": 964,
+          "count": 2,
+          "unitIds": [
+            49,
+            2097
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 23,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "chivalry",
+              "name": "\u041e\u0442\u0432\u0430\u0433\u0430",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u044e\u043d\u0438\u0442 \u0441 \u044d\u0442\u0438\u043c \u0443\u043c\u0435\u043d\u0438\u0435\u043c.",
+              "icon": "chivalry",
+              "value": 6,
+              "__class__": "BattleChivalryAbility"
+            },
+            {
+              "type": "call_of_duty",
+              "name": "\u0417\u043e\u0432 \u0414\u043e\u043b\u0433\u0430",
+              "description": "\u0414\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u0432\u0441\u0435\u043c \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u044e\u043d\u0438\u0442\u0430\u043c, \u043a\u043e\u0433\u0434\u0430 \u044d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043f\u043e\u0433\u0438\u0431\u0430\u0435\u0442. \u041f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u0440\u0430\u0437.",
+              "icon": "call_of_duty",
+              "value": 3,
+              "__class__": "BattleCallOfDutyAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "IndustrialAge_champion",
+          "next_healing_step_size": 5788,
+          "count": 51,
+          "unitIds": [
+            23,
+            2071,
+            4119,
+            6167,
+            8215,
+            10263,
+            12311,
+            14359,
+            16407,
+            18455,
+            20503,
+            22551,
+            24599,
+            26647,
+            28695,
+            30743,
+            32791,
+            34839,
+            36887,
+            38935
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 32,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 60,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "recon_raider",
+          "next_healing_step_size": 964,
+          "count": 6,
+          "unitIds": [
+            32,
+            2080,
+            4128,
+            6176,
+            8224,
+            10272
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 14,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "chivalry",
+              "name": "\u041e\u0442\u0432\u0430\u0433\u0430",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u044e\u043d\u0438\u0442 \u0441 \u044d\u0442\u0438\u043c \u0443\u043c\u0435\u043d\u0438\u0435\u043c.",
+              "icon": "chivalry",
+              "value": 8,
+              "__class__": "BattleChivalryAbility"
+            },
+            {
+              "type": "call_of_duty",
+              "name": "\u0417\u043e\u0432 \u0414\u043e\u043b\u0433\u0430",
+              "description": "\u0414\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u0432\u0441\u0435\u043c \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u044e\u043d\u0438\u0442\u0430\u043c, \u043a\u043e\u0433\u0434\u0430 \u044d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043f\u043e\u0433\u0438\u0431\u0430\u0435\u0442. \u041f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u0440\u0430\u0437.",
+              "icon": "call_of_duty",
+              "value": 5,
+              "__class__": "BattleCallOfDutyAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "PostModernEra_champion",
+          "next_healing_step_size": 5788,
+          "count": 1,
+          "unitIds": [
+            14
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 53,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "horseman",
+          "next_healing_step_size": 241,
+          "count": 8,
+          "unitIds": [
+            53,
+            2101,
+            4149,
+            6197,
+            8245,
+            10293,
+            12341,
+            14389
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 50,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "blast",
+              "name": "\u0417\u0430\u043b\u043f",
+              "description": "\u041f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0430\u0442\u0430\u043a\u0438 \u0437\u0430 \u043a\u0430\u0436\u0434\u0443\u044e \u043a\u043b\u0435\u0442\u043a\u0443, \u0431\u043b\u0438\u0436\u043d\u044e\u044e \u043a \u0446\u0435\u043b\u0438. \u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u0443\u043a\u0440\u044b\u0442\u0438\u0435.",
+              "icon": "blast",
+              "value": 6,
+              "__class__": "BattleBlastAbility"
+            },
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "howitzer",
+          "next_healing_step_size": 964,
+          "count": 218,
+          "unitIds": [
+            50,
+            2098,
+            4146,
+            6194,
+            8242,
+            10290,
+            12338,
+            14386,
+            16434,
+            18482,
+            20530,
+            22578,
+            24626,
+            26674,
+            28722,
+            30770,
+            32818,
+            34866,
+            36914,
+            38962
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 149,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "longbowman",
+          "next_healing_step_size": 964,
+          "count": 57,
+          "unitIds": [
+            149,
+            2197,
+            4245,
+            6293,
+            8341,
+            10389,
+            12437,
+            14485,
+            16533,
+            18581,
+            20629,
+            22677,
+            24725,
+            26773,
+            28821,
+            30869,
+            32917,
+            34965,
+            37013,
+            39061
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 9,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "marksman",
+          "next_healing_step_size": 964,
+          "count": 61,
+          "unitIds": [
+            9,
+            2057,
+            4105,
+            6153,
+            8201,
+            10249,
+            12297,
+            14345,
+            16393,
+            18441,
+            20489,
+            22537,
+            24585,
+            26633,
+            28681,
+            30729,
+            32777,
+            34825,
+            36873,
+            38921
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 205,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 22,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "breech_loader",
+          "next_healing_step_size": 964,
+          "count": 128,
+          "unitIds": [
+            205,
+            2253,
+            4301,
+            6349,
+            8397,
+            10445,
+            12493,
+            14541,
+            16589,
+            18637,
+            20685,
+            22733,
+            24781,
+            26829,
+            28877,
+            30925,
+            32973,
+            35021,
+            37069,
+            39117
+          ],
+          "__class__": "ArmyUnitStack"
+        },
+        {
+          "unitId": 42,
+          "ownerId": 851853875,
+          "currentHitpoints": 7,
+          "abilities": [
+            {
+              "type": "rogue",
+              "name": "\u0422\u0430\u0439\u043d\u0430\u044f \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+              "description": "\u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 \u0443\u0440\u043e\u043d \u0438 \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0432 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u044e\u043d\u0438\u0442\u0430 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438. \u041f\u043e\u0433\u0438\u0431\u0430\u0435\u0442, \u0435\u0441\u043b\u0438 \u0443 \u043d\u0435\u0433\u043e \u0431\u044b\u043b\u043e \u0434\u043e 10 \u043a\u043b\u0435\u0442\u043e\u043a \u0438 \u0435\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u043d\u0435 \u043e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u044e\u043d\u0438\u0442\u043e\u0432 \u0431\u0435\u0437 \u0442\u0430\u0439\u043d\u043e\u0439 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438. ",
+              "icon": "rogue",
+              "used_at_step": -1,
+              "value": "own",
+              "__class__": "BattleRogueAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rogue",
+          "next_healing_step_size": 5788,
+          "fully_healed_at": 1688429898,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 16,
+          "ownerId": 851853875,
+          "currentHitpoints": 6,
+          "abilities": [
+            {
+              "type": "rogue",
+              "name": "\u0422\u0430\u0439\u043d\u0430\u044f \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+              "description": "\u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 \u0443\u0440\u043e\u043d \u0438 \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0432 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u044e\u043d\u0438\u0442\u0430 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438. \u041f\u043e\u0433\u0438\u0431\u0430\u0435\u0442, \u0435\u0441\u043b\u0438 \u0443 \u043d\u0435\u0433\u043e \u0431\u044b\u043b\u043e \u0434\u043e 10 \u043a\u043b\u0435\u0442\u043e\u043a \u0438 \u0435\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u043d\u0435 \u043e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u044e\u043d\u0438\u0442\u043e\u0432 \u0431\u0435\u0437 \u0442\u0430\u0439\u043d\u043e\u0439 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438. ",
+              "icon": "rogue",
+              "used_at_step": -1,
+              "value": "own",
+              "__class__": "BattleRogueAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rogue",
+          "next_healing_step_size": 5788,
+          "fully_healed_at": 1688437965,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 56,
+          "ownerId": 851853875,
+          "currentHitpoints": 8,
+          "abilities": [
+            {
+              "type": "rogue",
+              "name": "\u0422\u0430\u0439\u043d\u0430\u044f \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+              "description": "\u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 \u0443\u0440\u043e\u043d \u0438 \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0432 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u044e\u043d\u0438\u0442\u0430 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438. \u041f\u043e\u0433\u0438\u0431\u0430\u0435\u0442, \u0435\u0441\u043b\u0438 \u0443 \u043d\u0435\u0433\u043e \u0431\u044b\u043b\u043e \u0434\u043e 10 \u043a\u043b\u0435\u0442\u043e\u043a \u0438 \u0435\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u043d\u0435 \u043e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u044e\u043d\u0438\u0442\u043e\u0432 \u0431\u0435\u0437 \u0442\u0430\u0439\u043d\u043e\u0439 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438. ",
+              "icon": "rogue",
+              "used_at_step": -1,
+              "value": "own",
+              "__class__": "BattleRogueAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rogue",
+          "next_healing_step_size": 5788,
+          "fully_healed_at": 1688426405,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 24,
+          "ownerId": 851853875,
+          "currentHitpoints": 9,
+          "abilities": [
+            {
+              "type": "rogue",
+              "name": "\u0422\u0430\u0439\u043d\u0430\u044f \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+              "description": "\u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 \u0443\u0440\u043e\u043d \u0438 \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0432 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u044e\u043d\u0438\u0442\u0430 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438. \u041f\u043e\u0433\u0438\u0431\u0430\u0435\u0442, \u0435\u0441\u043b\u0438 \u0443 \u043d\u0435\u0433\u043e \u0431\u044b\u043b\u043e \u0434\u043e 10 \u043a\u043b\u0435\u0442\u043e\u043a \u0438 \u0435\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u043d\u0435 \u043e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u044e\u043d\u0438\u0442\u043e\u0432 \u0431\u0435\u0437 \u0442\u0430\u0439\u043d\u043e\u0439 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438. ",
+              "icon": "rogue",
+              "used_at_step": -1,
+              "value": "own",
+              "__class__": "BattleRogueAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rogue",
+          "next_healing_step_size": 5788,
+          "fully_healed_at": 1688416202,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 2072,
+          "ownerId": 851853875,
+          "currentHitpoints": 9,
+          "abilities": [
+            {
+              "type": "rogue",
+              "name": "\u0422\u0430\u0439\u043d\u0430\u044f \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+              "description": "\u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 \u0443\u0440\u043e\u043d \u0438 \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0432 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u044e\u043d\u0438\u0442\u0430 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438. \u041f\u043e\u0433\u0438\u0431\u0430\u0435\u0442, \u0435\u0441\u043b\u0438 \u0443 \u043d\u0435\u0433\u043e \u0431\u044b\u043b\u043e \u0434\u043e 10 \u043a\u043b\u0435\u0442\u043e\u043a \u0438 \u0435\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u043d\u0435 \u043e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u044e\u043d\u0438\u0442\u043e\u0432 \u0431\u0435\u0437 \u0442\u0430\u0439\u043d\u043e\u0439 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438. ",
+              "icon": "rogue",
+              "used_at_step": -1,
+              "value": "own",
+              "__class__": "BattleRogueAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rogue",
+          "next_healing_step_size": 5788,
+          "fully_healed_at": 1688416202,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 4120,
+          "ownerId": 851853875,
+          "currentHitpoints": 9,
+          "abilities": [
+            {
+              "type": "rogue",
+              "name": "\u0422\u0430\u0439\u043d\u0430\u044f \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+              "description": "\u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 \u0443\u0440\u043e\u043d \u0438 \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0432 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u044e\u043d\u0438\u0442\u0430 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438. \u041f\u043e\u0433\u0438\u0431\u0430\u0435\u0442, \u0435\u0441\u043b\u0438 \u0443 \u043d\u0435\u0433\u043e \u0431\u044b\u043b\u043e \u0434\u043e 10 \u043a\u043b\u0435\u0442\u043e\u043a \u0438 \u0435\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u043d\u0435 \u043e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u044e\u043d\u0438\u0442\u043e\u0432 \u0431\u0435\u0437 \u0442\u0430\u0439\u043d\u043e\u0439 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438. ",
+              "icon": "rogue",
+              "used_at_step": -1,
+              "value": "own",
+              "__class__": "BattleRogueAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rogue",
+          "next_healing_step_size": 5788,
+          "fully_healed_at": 1688416202,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 39,
+          "ownerId": 851853875,
+          "currentHitpoints": 8,
+          "abilities": [
+            {
+              "type": "rogue",
+              "name": "\u0422\u0430\u0439\u043d\u0430\u044f \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+              "description": "\u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 \u0443\u0440\u043e\u043d \u0438 \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0432 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u044e\u043d\u0438\u0442\u0430 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438. \u041f\u043e\u0433\u0438\u0431\u0430\u0435\u0442, \u0435\u0441\u043b\u0438 \u0443 \u043d\u0435\u0433\u043e \u0431\u044b\u043b\u043e \u0434\u043e 10 \u043a\u043b\u0435\u0442\u043e\u043a \u0438 \u0435\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u043d\u0435 \u043e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u044e\u043d\u0438\u0442\u043e\u0432 \u0431\u0435\u0437 \u0442\u0430\u0439\u043d\u043e\u0439 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438. ",
+              "icon": "rogue",
+              "used_at_step": -1,
+              "value": "own",
+              "__class__": "BattleRogueAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rogue",
+          "next_healing_step_size": 5788,
+          "fully_healed_at": 1688421990,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 31,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "tank",
+          "next_healing_step_size": 964,
+          "is_attacking": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 36,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 26,
+              "__class__": "BattleDugInAbility"
+            },
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "rf_cannon",
+          "next_healing_step_size": 964,
+          "is_attacking": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 37,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 40,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "sniper",
+          "next_healing_step_size": 964,
+          "is_attacking": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 40,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "close_quarters",
+              "name": "\u0420\u0443\u043a\u043e\u043f\u0430\u0448\u043d\u0430\u044f",
+              "description": "\u041f\u043e\u0432\u044b\u0448\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0430\u0442\u0430\u043a\u0438 \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u0435\u043c\u044b\u0439 \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432 \u0441\u043e\u0441\u0435\u0434\u043d\u0435\u0439 \u043a\u043b\u0435\u0442\u043a\u0435",
+              "icon": "close_quarters",
+              "value": 20,
+              "__class__": "BattleCloseQuartersAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "conscript",
+          "next_healing_step_size": 964,
+          "is_attacking": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 43,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "armored_car",
+          "next_healing_step_size": 964,
+          "is_attacking": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 46,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "chivalry",
+              "name": "\u041e\u0442\u0432\u0430\u0433\u0430",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u044e\u043d\u0438\u0442 \u0441 \u044d\u0442\u0438\u043c \u0443\u043c\u0435\u043d\u0438\u0435\u043c.",
+              "icon": "chivalry",
+              "value": 6,
+              "__class__": "BattleChivalryAbility"
+            },
+            {
+              "type": "call_of_duty",
+              "name": "\u0417\u043e\u0432 \u0414\u043e\u043b\u0433\u0430",
+              "description": "\u0414\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0430\u0442\u0430\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u0432\u0441\u0435\u043c \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u044e\u043d\u0438\u0442\u0430\u043c, \u043a\u043e\u0433\u0434\u0430 \u044d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043f\u043e\u0433\u0438\u0431\u0430\u0435\u0442. \u041f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u0440\u0430\u0437.",
+              "icon": "call_of_duty",
+              "value": 4,
+              "__class__": "BattleCallOfDutyAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "ProgressiveEra_champion",
+          "next_healing_step_size": 5788,
+          "is_attacking": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 12,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "rogue",
+              "name": "\u0422\u0430\u0439\u043d\u0430\u044f \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+              "description": "\u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 \u0443\u0440\u043e\u043d \u0438 \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0432 \u0434\u0440\u0443\u0433\u043e\u0433\u043e \u044e\u043d\u0438\u0442\u0430 \u0432\u0430\u0448\u0435\u0439 \u0430\u0440\u043c\u0438\u0438. \u041f\u043e\u0433\u0438\u0431\u0430\u0435\u0442, \u0435\u0441\u043b\u0438 \u0443 \u043d\u0435\u0433\u043e \u0431\u044b\u043b\u043e \u0434\u043e 10 \u043a\u043b\u0435\u0442\u043e\u043a \u0438 \u0435\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u043d\u0435 \u043e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u044e\u043d\u0438\u0442\u043e\u0432 \u0431\u0435\u0437 \u0442\u0430\u0439\u043d\u043e\u0439 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438. ",
+              "icon": "rogue",
+              "used_at_step": -1,
+              "value": "own",
+              "__class__": "BattleRogueAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "entity_id": 593,
+          "slot_id": 1,
+          "unitTypeId": "rogue",
+          "next_healing_step_size": 5788,
+          "is_attacking": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 54,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "stealth",
+              "name": "\u0423\u043a\u0440\u044b\u0442\u0438\u0435",
+              "description": "\u042d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043c\u043e\u0436\u0435\u0442 \u0441\u043f\u0440\u044f\u0442\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0434\u0430\u043b\u044c\u043d\u0438\u0445 \u0430\u0442\u0430\u043a \u0432 \u044d\u0442\u043e\u0439 \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u0438.",
+              "icon": "stealth",
+              "terrains": [
+                "bushes"
+              ],
+              "__class__": "BattleStealthAbility"
+            },
+            {
+              "type": "heat",
+              "name": "\u0416\u0430\u0440",
+              "description": "\u0423\u043c\u0435\u043d\u044c\u0448\u0430\u0435\u0442 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u0430\u0442\u0430\u043a\u0438 \u0446\u0435\u043b\u0438",
+              "icon": "heat",
+              "value": 20,
+              "__class__": "BattleHeatAbility"
+            },
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "hydroelectric_eel",
+          "next_healing_step_size": 964,
+          "is_defending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 2102,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "stealth",
+              "name": "\u0423\u043a\u0440\u044b\u0442\u0438\u0435",
+              "description": "\u042d\u0442\u043e\u0442 \u044e\u043d\u0438\u0442 \u043c\u043e\u0436\u0435\u0442 \u0441\u043f\u0440\u044f\u0442\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0434\u0430\u043b\u044c\u043d\u0438\u0445 \u0430\u0442\u0430\u043a \u0432 \u044d\u0442\u043e\u0439 \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u0438.",
+              "icon": "stealth",
+              "terrains": [
+                "bushes"
+              ],
+              "__class__": "BattleStealthAbility"
+            },
+            {
+              "type": "heat",
+              "name": "\u0416\u0430\u0440",
+              "description": "\u0423\u043c\u0435\u043d\u044c\u0448\u0430\u0435\u0442 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u0430\u0442\u0430\u043a\u0438 \u0446\u0435\u043b\u0438",
+              "icon": "heat",
+              "value": 20,
+              "__class__": "BattleHeatAbility"
+            },
+            {
+              "type": "explosion_animation",
+              "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "description": "\u0412\u0437\u0440\u044b\u0432\u043d\u0430\u044f \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f",
+              "icon": "explosion_animation",
+              "__class__": "BattleExplosionAnimationAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "hydroelectric_eel",
+          "next_healing_step_size": 964,
+          "is_defending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 21,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 70,
+              "__class__": "BattleDugInAbility"
+            },
+            {
+              "type": "contact",
+              "name": "\u041a\u043e\u043d\u0442\u0430\u043a\u0442!",
+              "description": "\u0412\u0441\u0435\u0433\u0434\u0430 \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u0430\u0442\u0430\u043a\u043e\u0439 \u043d\u0430 \u0432\u0441\u0442\u0440\u0435\u0447\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443.",
+              "icon": "contact",
+              "__class__": "BattleContactAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "sub_cruiser",
+          "next_healing_step_size": 964,
+          "is_defending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 2069,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 70,
+              "__class__": "BattleDugInAbility"
+            },
+            {
+              "type": "contact",
+              "name": "\u041a\u043e\u043d\u0442\u0430\u043a\u0442!",
+              "description": "\u0412\u0441\u0435\u0433\u0434\u0430 \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u0430\u0442\u0430\u043a\u043e\u0439 \u043d\u0430 \u0432\u0441\u0442\u0440\u0435\u0447\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443.",
+              "icon": "contact",
+              "__class__": "BattleContactAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "sub_cruiser",
+          "next_healing_step_size": 964,
+          "is_defending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 4117,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 70,
+              "__class__": "BattleDugInAbility"
+            },
+            {
+              "type": "contact",
+              "name": "\u041a\u043e\u043d\u0442\u0430\u043a\u0442!",
+              "description": "\u0412\u0441\u0435\u0433\u0434\u0430 \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u0430\u0442\u0430\u043a\u043e\u0439 \u043d\u0430 \u0432\u0441\u0442\u0440\u0435\u0447\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443.",
+              "icon": "contact",
+              "__class__": "BattleContactAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "sub_cruiser",
+          "next_healing_step_size": 964,
+          "is_defending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 6165,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 70,
+              "__class__": "BattleDugInAbility"
+            },
+            {
+              "type": "contact",
+              "name": "\u041a\u043e\u043d\u0442\u0430\u043a\u0442!",
+              "description": "\u0412\u0441\u0435\u0433\u0434\u0430 \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u0430\u0442\u0430\u043a\u043e\u0439 \u043d\u0430 \u0432\u0441\u0442\u0440\u0435\u0447\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443.",
+              "icon": "contact",
+              "__class__": "BattleContactAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "sub_cruiser",
+          "next_healing_step_size": 964,
+          "is_defending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 20,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "reactive_armor",
+              "name": "\u0425\u0438\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0411\u0440\u043e\u043d\u044f",
+              "description": "\u041d\u0435 \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 %s \u0443\u0440\u043e\u043d\u0430 \u0437\u0430 \u0430\u0442\u0430\u043a\u0443.",
+              "icon": "reactive_armor",
+              "value": 4,
+              "__class__": "BattleReactiveArmorAbility"
+            },
+            {
+              "type": "blast",
+              "name": "\u0417\u0430\u043b\u043f",
+              "description": "\u041f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0430\u0442\u0430\u043a\u0438 \u0437\u0430 \u043a\u0430\u0436\u0434\u0443\u044e \u043a\u043b\u0435\u0442\u043a\u0443, \u0431\u043b\u0438\u0436\u043d\u044e\u044e \u043a \u0446\u0435\u043b\u0438. \u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u0443\u043a\u0440\u044b\u0442\u0438\u0435.",
+              "icon": "blast",
+              "value": 6,
+              "__class__": "BattleBlastAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "crab_mech",
+          "next_healing_step_size": 964,
+          "is_defending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 2068,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "reactive_armor",
+              "name": "\u0425\u0438\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0411\u0440\u043e\u043d\u044f",
+              "description": "\u041d\u0435 \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 %s \u0443\u0440\u043e\u043d\u0430 \u0437\u0430 \u0430\u0442\u0430\u043a\u0443.",
+              "icon": "reactive_armor",
+              "value": 4,
+              "__class__": "BattleReactiveArmorAbility"
+            },
+            {
+              "type": "blast",
+              "name": "\u0417\u0430\u043b\u043f",
+              "description": "\u041f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0430\u0442\u0430\u043a\u0438 \u0437\u0430 \u043a\u0430\u0436\u0434\u0443\u044e \u043a\u043b\u0435\u0442\u043a\u0443, \u0431\u043b\u0438\u0436\u043d\u044e\u044e \u043a \u0446\u0435\u043b\u0438. \u0418\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u0443\u043a\u0440\u044b\u0442\u0438\u0435.",
+              "icon": "blast",
+              "value": 6,
+              "__class__": "BattleBlastAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "crab_mech",
+          "next_healing_step_size": 964,
+          "is_defending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 2,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 60,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "recon_raider",
+          "next_healing_step_size": 964,
+          "isArenaDefending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 2050,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 60,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "recon_raider",
+          "next_healing_step_size": 964,
+          "isArenaDefending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 4098,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 60,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "recon_raider",
+          "next_healing_step_size": 964,
+          "isArenaDefending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 6146,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 60,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "recon_raider",
+          "next_healing_step_size": 964,
+          "isArenaDefending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 8194,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 60,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "recon_raider",
+          "next_healing_step_size": 964,
+          "isArenaDefending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 10242,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 60,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "recon_raider",
+          "next_healing_step_size": 964,
+          "isArenaDefending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 12290,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 60,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "recon_raider",
+          "next_healing_step_size": 964,
+          "isArenaDefending": true,
+          "__class__": "ArmyUnit"
+        },
+        {
+          "unitId": 14338,
+          "ownerId": 851853875,
+          "currentHitpoints": 10,
+          "abilities": [
+            {
+              "type": "dug_in",
+              "name": "\u041e\u043a\u043e\u043f\u0430\u0442\u044c\u0441\u044f",
+              "description": "\u0414\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441 \u0437\u0430\u0449\u0438\u0442\u044b, \u0435\u0441\u043b\u0438 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u0443\u0434\u0430\u043b\u0451\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c \u043d\u0430 2 \u043a\u043b\u0435\u0442\u043a\u0438.",
+              "icon": "unit_ability_dug_in",
+              "value": 60,
+              "__class__": "BattleDugInAbility"
+            }
+          ],
+          "bonuses": [
+            {
+              "value": 122.0,
+              "type": "military_boost",
+              "__class__": "GreatBuildingUnitBonus"
+            },
+            {
+              "value": 648,
+              "type": "attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 229,
+              "type": "defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 239,
+              "type": "defender_attack_boost",
+              "__class__": "MilitaryUnitBonus"
+            },
+            {
+              "value": 369,
+              "type": "attacker_defense_boost",
+              "__class__": "MilitaryUnitBonus"
+            }
+          ],
+          "unitTypeId": "recon_raider",
+          "next_healing_step_size": 964,
+          "isArenaDefending": true,
+          "__class__": "ArmyUnit"
+        }
+      ],
+      "counts": [
+        {
+          "unitTypeId": "TomorrowEra_champion",
+          "unattached": 1,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "rf_cannon",
+          "unattached": 420,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "catapult",
+          "unattached": 3,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "trebuchet",
+          "unattached": 1,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "commando",
+          "unattached": 4,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "hover_tank",
+          "unattached": 4,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "grenadier",
+          "unattached": 96,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "archer",
+          "unattached": 5,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "cannoniers",
+          "unattached": 27,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "stealth_tank",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "military_drummer",
+          "unattached": 8,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "mounted_bowman",
+          "unattached": 18,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "rail_gun_unit",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "ProgressiveEra_champion",
+          "unattached": 12,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "rogue",
+          "attached": 2,
+          "unattached": 1307,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "conscript",
+          "unattached": 235,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "bombarde",
+          "unattached": 49,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "tank",
+          "unattached": 467,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "paratrooper",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "armored_car",
+          "unattached": 224,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "bazooka",
+          "unattached": 3,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "jaeger",
+          "unattached": 107,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "dismounted_knight",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "crossbowman",
+          "unattached": 1,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "ranger",
+          "unattached": 94,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "lancer",
+          "unattached": 120,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "sniper",
+          "unattached": 261,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "pikeman",
+          "unattached": 70,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "battle_tank",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "legionnaire",
+          "unattached": 15,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "imperial_knight",
+          "unattached": 44,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "mech_infantry",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "sat_uplink_unit",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "anti_material_sniper",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "hydroelectric_eel",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "sub_cruiser",
+          "unattached": 4,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "crab_mech",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "recon_raider",
+          "unattached": 14,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "balista",
+          "unattached": 3,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "biedenhaender_mercenary",
+          "unattached": 66,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "surrogate_soldier",
+          "unattached": 11,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "dragoon",
+          "unattached": 91,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "battle_fortress",
+          "unattached": 10,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "javeliner",
+          "unattached": 4,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "slinger",
+          "unattached": 5,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "LateMiddleAge_champion",
+          "unattached": 6,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "rifleman",
+          "unattached": 97,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "ColonialAge_champion",
+          "unattached": 21,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "exo_soldier",
+          "unattached": 6,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "color_guard",
+          "unattached": 9,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "drone_swarm",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "combat_drone",
+          "unattached": 2,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "IndustrialAge_champion",
+          "unattached": 51,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "PostModernEra_champion",
+          "unattached": 1,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "horseman",
+          "unattached": 8,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "howitzer",
+          "unattached": 218,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "longbowman",
+          "unattached": 57,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "marksman",
+          "unattached": 61,
+          "__class__": "UnitCount"
+        },
+        {
+          "unitTypeId": "breech_loader",
+          "unattached": 128,
+          "__class__": "UnitCount"
+        }
+      ],
+      "__class__": "ArmyInfo"
+    },
+    "requestClass": "ArmyUnitManagementService",
+    "requestMethod": "getArmyInfo",
+    "requestId": 532,
+    "__class__": "ServerResponse"
+  }
+]

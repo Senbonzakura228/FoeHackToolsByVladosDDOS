@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547b46d8090540a0afe3bb1f117ff15a, type: 3}
+  m_Name: IconStorage
+  m_EditorClassIdentifier: 
+  UnitIcons:
+  - unitName: tank
+    icon: {fileID: 21300000, guid: 330bf05ddecb3f84d9ee56b5cdb2be61, type: 3}
+  - unitName: rf_cannon
+    icon: {fileID: 21300000, guid: 9c886034a534bf84ab6bd0fb011de970, type: 3}
+  - unitName: sniper
+    icon: {fileID: 21300000, guid: 8ab7bde3a1274a0469b1941ca21002a3, type: 3}
+  - unitName: conscript
+    icon: {fileID: 21300000, guid: c16dd8be9e8089347b657ecbb3a3cb49, type: 3}
+  - unitName: armored_car
+    icon: {fileID: 21300000, guid: eb94952bf5aef154b960af567bd8e6af, type: 3}
+  - unitName: ProgressiveEra_champion
+    icon: {fileID: 21300000, guid: 9b948e25aafed5e44a3619a10431d0a2, type: 3}
+  - unitName: rogue
+    icon: {fileID: 21300000, guid: fc7c01a0119852547939d9abd272639d, type: 3}

@@ -1,0 +1,22 @@
+﻿public enum Ages
+{
+    IronAge,
+    EarlyMiddleAge,
+    HighMiddleAge,
+    LateMiddleAge,
+    ColonialAge,
+    IndustrialAge,
+    ProgressiveEra,
+    ModernEra,
+    PostModernEra,
+    ContemporaryEra,
+    TomorrowEra,
+    FutureEra,
+    ArcticFuture,
+    OceanicFuture,
+    VirtualFuture,
+    SpaceAgeMars,
+    SpaceAgeAsteroidBelt,
+    SpaceAgeVenus,
+    SpaceAgeJupiterMoon
+}
